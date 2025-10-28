@@ -1,6 +1,5 @@
-package br.com.finanzen.mappers;
+ackage br.com.finanzen.mappers;
 
-import br.com.finanzen.controller.dto.CreateIncomeCategoryResponse;
 import br.com.finanzen.domain.models.IncomeCategory;
 import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;

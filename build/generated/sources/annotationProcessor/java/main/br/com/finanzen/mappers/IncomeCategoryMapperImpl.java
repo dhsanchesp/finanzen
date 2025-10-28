@@ -1,20 +1,35 @@
 package br.com.finanzen.mappers;
 
-import br.com.finanzen.controller.dto.CreateIncomeCategoryResponse;
-import br.com.finanzen.domain.models.IncomeCategory;
+import br.com.finanzen.dtos.categories.CategoryResponse;
+import br.com.finanzen.dtos.categories.CreateCategoryRequest;
+import br.com.finanzen.dtos.categories.CreateCategoryResponse;
+import br.com.finanzen.entities.IncomeCategory;
+import java.util.ArrayList;
+import java.util.List;
 import javax.annotation.processing.Generated;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2025-09-25T00:32:09-0300",
+    date = "2025-10-21T23:22:23-0300",
     comments = "version: 1.5.5.Final, compiler: IncrementalProcessingEnvironment from gradle-language-java-8.10.jar, environment: Java 21.0.7 (Eclipse Adoptium)"
 )
 @Component
 public class IncomeCategoryMapperImpl implements IncomeCategoryMapper {
 
     @Override
-    public CreateIncomeCategoryResponse toDto(IncomeCategory entity) {
+    public IncomeCategory toEntity(CreateCategoryRequest request) {
+        if ( request == null ) {
+            return null;
+        }
+
+        IncomeCategory incomeCategory = new IncomeCategory();
+
+        return incomeCategory;
+    }
+
+    @Override
+    public CreateCategoryResponse toCreateResponse(IncomeCategory entity) {
         if ( entity == null ) {
             return null;
         }
@@ -23,8 +38,48 @@ public class IncomeCategoryMapperImpl implements IncomeCategoryMapper {
         String name = null;
         String description = null;
 
-        CreateIncomeCategoryResponse createIncomeCategoryResponse = new CreateIncomeCategoryResponse( id, name, description );
+        CreateCategoryResponse createCategoryResponse = new CreateCategoryResponse( id, name, description );
 
-        return createIncomeCategoryResponse;
+        return createCategoryResponse;
+    }
+
+    @Override
+    public CategoryResponse toResponse(IncomeCategory entity) {
+        if ( entity == null ) {
+            return null;
+        }
+
+        String createdByUser = null;
+
+        createdByUser = entity.getCreatedByUser();
+
+        String id = null;
+        String name = null;
+        String description = null;
+
+        CategoryResponse categoryResponse = new CategoryResponse( id, name, description, createdByUser );
+
+        return categoryResponse;
+    }
+
+    @Override
+    public List<CategoryResponse> toResponseList(List<IncomeCategory> entities) {
+        if ( entities == null ) {
+            return null;
+        }
+
+        List<CategoryResponse> list = new ArrayList<CategoryResponse>( entities.size() );
+        for ( IncomeCategory incomeCategory : entities ) {
+            list.add( toResponse( incomeCategory ) );
+        }
+
+        return list;
+    }
+
+    @Override
+    public void updateEntity(CreateCategoryRequest request, IncomeCategory entity) {
+        if ( request == null ) {
+            return;
+        }
     }
 }
