@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f7a64e9-17da-475a-89d3-f17395b451aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/categories/openapi/CategoryApi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/repository/BaseCategoryJpaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" afterDir="false" />
@@ -14,33 +12,34 @@
       <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/br/com/finanzen/mappers/IncomeCategoryMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/br/com/finanzen/mappers/IncomeCategoryMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/br/com/finanzen/mappers/IncomeCategoryMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/generated/br/com/finanzen/mappers/IncomeCategoryMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/br/com/finanzen/mappers/IncomeCategoryMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/IncomeCategoryController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/dto/CreateIncomeCategoryRequest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/dto/CreateIncomeCategoryResponse.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/openapi/IncomeCategoryApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/BankAccount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/CreditCard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/CreditCardAcount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/CreditCardAcount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/CreditCardExpense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/CreditCardExpense.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/Expense.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/ExpenseCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/ExpenseCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/Income.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/Income.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/IncomeCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/IncomeCategory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/abstracts/Audit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/abstracts/Audit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/abstracts/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/abstracts/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/abstracts/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/abstracts/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/BankAccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/enums/BankAccountType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/CreditCardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/enums/CreditCardType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/ExpenseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/enums/ExpenseType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/IncomeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/enums/IncomeType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/factories/IncomeCategoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/factories/IncomeCategoryFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/mappers/IncomeCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/mappers/IncomeCategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/Bank.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/BankAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/CreditCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/CreditCardAcount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/CreditCardExpense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/Expense.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/ExpenseCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/Income.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/IncomeCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/abstracts/Audit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/abstracts/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/abstracts/Transaction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/BankAccountType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/CreditCardType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/ExpenseType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/IncomeType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/factories/IncomeCategoryFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/mappers/IncomeCategoryMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/repository/IncomeCategoryJpaRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/repository/IncomeCategoryRepository.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/service/IncomeCategoryService.java" beforeDir="false" />
@@ -58,6 +57,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -75,9 +77,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Record" />
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -93,18 +96,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.finanzen [:br.com.finanzen.Application.main()].executor&quot;: &quot;Debug&quot;,
-    &quot;Gradle.finanzen [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/dhsanchesp/Documents/git-financas-app/financas-srv&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.TransactionServiceTest.shouldCreateTransactionWithSuccess.executor": "Debug",
+    "Gradle.finanzen [:br.com.finanzen.Application.main()].executor": "Run",
+    "Gradle.finanzen [clean].executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "feature/mvp",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/dhsanchesp/Documents/git-financas-app/financas-srv",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="br.com.finanzen" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="br.com.finanzen.service" />
+      <recent name="java.br.com.finanzen.service" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="br.com.finanzen.service" />
       <recent name="br.com.finanzen.dtos.expenses" />
@@ -132,6 +156,30 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransactionServiceTest.shouldCreateTransactionWithSuccess" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;br.com.finanzen.service.TransactionServiceTest.shouldCreateTransactionWithSuccess&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="finanzen [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -156,6 +204,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TransactionServiceTest.shouldCreateTransactionWithSuccess" />
         <item itemvalue="Gradle.finanzen [clean]" />
       </list>
     </recent_temporary>
@@ -170,5 +219,36 @@
       <updated>1758771000452</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/finanzen/service/TransactionServiceTest.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/finanzen/service/TransactionServiceTest.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/br/com/finanzen/service/TransactionServiceTest.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/TransactionController.java</url>
+          <line>35</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/br/com/finanzen/service/TransactionService.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
