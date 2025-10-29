@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1f7a64e9-17da-475a-89d3-f17395b451aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/categories/openapi/CategoryApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/repository/BaseCategoryJpaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.10/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.10/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/file-system.probe" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/file-system.probe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/br/com/finanzen/mappers/IncomeCategoryMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/generated/sources/annotationProcessor/java/main/br/com/finanzen/mappers/IncomeCategoryMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/br/com/finanzen/mappers/IncomeCategoryMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/br/com/finanzen/mappers/IncomeCategoryMapperImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/IncomeCategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/dto/CreateIncomeCategoryRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/dto/CreateIncomeCategoryResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/controller/openapi/IncomeCategoryApi.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/CreditCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/CreditCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/CreditCardAcount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/CreditCardAcount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/CreditCardExpense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/CreditCardExpense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/Expense.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/Expense.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/ExpenseCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/ExpenseCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/Income.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/Income.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/IncomeCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/IncomeCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/abstracts/Audit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/abstracts/Audit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/abstracts/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/abstracts/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/abstracts/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/abstracts/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/BankAccountType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/enums/BankAccountType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/CreditCardType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/enums/CreditCardType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/ExpenseType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/enums/ExpenseType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/domain/models/enums/IncomeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/entities/enums/IncomeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/factories/IncomeCategoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/factories/IncomeCategoryFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/mappers/IncomeCategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/finanzen/mappers/IncomeCategoryMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/repository/IncomeCategoryJpaRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/repository/IncomeCategoryRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/finanzen/service/IncomeCategoryService.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="finanzen" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Record" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="33As25ViBhynQBlUoUgSfQGqGBS" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.finanzen [:br.com.finanzen.Application.main()].executor&quot;: &quot;Debug&quot;,
+    &quot;Gradle.finanzen [clean].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/dhsanchesp/Documents/git-financas-app/financas-srv&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.finanzen.service" />
+      <recent name="br.com.finanzen.dtos.expenses" />
+      <recent name="br.com.finanzen.controller" />
+      <recent name="br.com.finanzen.mappers" />
+      <recent name="br.com.finanzen.controller.dto" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.finanzen.Application" />
+      <module name="finanzen.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.finanzen.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="finanzen [clean]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.finanzen [clean]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1f7a64e9-17da-475a-89d3-f17395b451aa" name="Changes" comment="" />
+      <created>1758771000452</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758771000452</updated>
+    </task>
+    <servers />
+  </component>
+</project>
